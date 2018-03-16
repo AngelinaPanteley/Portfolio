@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Cardo:400italic|Open+Sans:700|Raleway:700,300,400);
+@import url(resetcss.css);
+*,
+*:before, 
+*:after {
+   box-sizing:border-box;
+}
+
+/*typografy*/
+
+a {
+  color:#e84545;
+  text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+b,strong {
+	font-weight: 600;
+}
+i,em {
+    font-style: italic;
+}
+ul li {
+	list-style-type: disc;
+}
+ol li {
+	list-style-type: decimal;
+}
+blockquote {
+	font-style:italic;
+	font-family: 'Cardo', serif;
+	font-size: 36px;
+	line-height: 42px;
+}
+blockquote:before {
+	content: "\201C";
+}
+blockquote:after {
+    content: "\201D";
+}
+h1 {
+	  font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 65px;
+    line-height: 71px;
+    margin-bottom: 24px;
+
+}
+h2, h3 {
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+h2 {
+	line-height: 21px;
+	font-size: 17px;
+}
+h3 {
+	line-height: 18px;
+	font-size: 14px;
+}
+
+/*base*/
+
+html {
+	font-size: 100%;
+	line-height: 100%;
+}
+body {
+    font-family:'Raleway', sans-serif;
+    font-size:14px;
+    color:#6c7279;
+    line-height:21px;
+}
+.container
+{
+	width:1170px;
+	margin: 0 auto;
+}
+.img {
+  width: 100%;
+}
+.row:after {
+    content:"";
+    clear: both;
+    display: block;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.col-3 {
+	width: 33.33%;
+	float: left;
+}
+.col-4 {
+	width: 25%;
+	float: left;
+}
+
+/*header styles*/
+
+.main-header {
+	height: 100px;
+    background: rgba(0,0,0,.3);
+
+    line-height: 100px;
+    position: fixed;
+    width: 100%;
+}
+.main-header .container {
+    border-color: (255,255,255,.5);
+}
+
+.navigation {
+	color:white;
+	margin-left: 59px;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.logo-link {
+    margin-top: 38px;
+}
+.top-section {
+  background-image: url(../img/header.png);
+  
+  padding-top: 255px;
+  padding-bottom: 155px;
+  text-align: center;
+  
+  color: white;
+}
+.header-description
+{
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 22px;
+  line-height: 33px;
+}
+.button
+{
+  font-weight:600;
+  color: white;
+  border: none;
+  line-height: 21px;
+  font-size: 12px;
+  text-transform: uppercase;
+  background: #e84545;
+  margin-top: 75px;
+  padding-left: 55px;
+  padding-right: 45px;
+  padding-top:19px; 
+  padding-bottom:18px;
+  
+}
